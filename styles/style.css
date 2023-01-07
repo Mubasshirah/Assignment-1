@@ -1,0 +1,88 @@
+/* common css */
+body{
+    font-family: 'Open Sans', sans-serif;
+margin: 0;
+
+}
+
+header{
+    width: 100%;
+}
+footer{
+    width: 100%;
+}
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+/* common css ends */
+/* banner css */
+.banner{
+    display: flex;
+align-items: center;
+    background-image: url(../images/banner1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 50px;
+}
+.banner-left{
+width: 62%;
+}
+.banner-text{
+    width: 35%;
+    text-align: right;
+    padding-right: 10%;
+}
+
+.banner-text h2{
+    font-size: 50px;
+    font-weight:700;
+}
+.banner-text p{
+    font-size: 20px;
+}
+.btn-common{
+    border: 0;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* banner css ends */
+/* failure part  */
+
+.failure-part{
+    display: flex;
+    padding: 100px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+.failure-part-image{
+    width: 50%;
+    height: 500px;
+    
+    text-align: left;
+}
+.failure-part-image img{
+    height: 100%;
+}
+.failure-part-text{
+    width: 48%;
+    
+    padding: 50px 20px;
+}
+.failure-part-text h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.failure-part-text p{}
+.failure-part-text li{
+    list-style-type:square;
+}
+/* failure part ends */
+/* plans  */
