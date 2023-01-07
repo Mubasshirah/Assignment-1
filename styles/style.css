@@ -166,5 +166,47 @@ width: 62%;
 }
 /* gradiant ends */
 /* footer starts */
+.footer{
+    background-color: black;
+    height: 400px;
+    display: flex;
+    padding:50px 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-left{
+    color: white;
+}
+.footer-left img{
+    margin-right: 10px;
+}
+.footer-left h3{
+    font-size: 30px;
 
+font-weight: 700;}
+.footer-right{
+    color: white;
+}
+.footer-right h5{
+    font-size: 20px;
+}
+input{
+    display: block;
+    border: 1px solid white;
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: transparent;
+    padding: 10px;
+}
+.button{
+    color: orangered;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 20px;
+}
 /* footer ends */
