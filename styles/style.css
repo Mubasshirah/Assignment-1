@@ -85,4 +85,25 @@ width: 62%;
     list-style-type:square;
 }
 /* failure part ends */
-/* plans  */
+/* plans part staarts */
+.plan-title{
+    text-align: center;
+    font-size: 30px;
+}
+.plans-part{
+    display: flex;
+    justify-content: space-around;
+}
+.plan-item{
+    text-align: center;
+    padding: 50px 0px;
+}
+.plan-item h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+.plan-item p{
+    color: grey;
+    font-weight: bold;
+}
+/* plans part ends */
